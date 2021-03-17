@@ -1,0 +1,28 @@
+.sidebar {
+  border-right: 1px solid #40394a;
+  height: 100vh;
+  width: 100px;
+}
+
+.sidebar__icons {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__icons > .MuiSvgIcon-root {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 4rem;
+  cursor: pointer;
+  color: #40394a;
+  transition: 0.1s;
+}
+
+.sidebar__icons > .MuiSvgIcon-root:hover {
+  background-color: #40394a;
+  border-radius: 5px;
+  color: #ccffbd;
+}
